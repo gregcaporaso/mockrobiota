@@ -10,4 +10,4 @@ target-subfragment	For marker-gene studies, what gene domain was amplified? For 
 study-type	marker-gene or metagenome (other study types may be accepted. If you already have published mock community data of another type and would like to contribute these data to mockrobiota, create an issue using the link above to propose new study types.
 sequencing-instrument	What sequencing technology/instrument was used? For example, illumina-miseq
 physical-specimen-available	Yes or No. Are physical aliquots of this mock community available to share with other researchers?
-physical-specimen-contact	If physical-specimen-available==Yes, list a name and email address. If not, list NA
+contact-email	email address of person to contact with questions about this dataset.
