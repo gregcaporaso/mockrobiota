@@ -75,19 +75,16 @@ This file lists metadata for each individual sample contained in a mock communit
 ### ``source/taxonomy.tsv`` (optional)
 This file lists the taxonomic and (when possible) strain affiliation of each strain added to the mock community, as well as its relative abundance. This file does not need to adhere to a particular taxonomic reference database, but please include as much information as possible (e.g., if this strain is available through a public repository, please list the repository strain ID). This information is usually provided by the developer(s) of the mock community.
 
-This file must be in ["classic BIOM" (tab-separated text) format](#classic-biom-formatted-tables).
+In these files, the first line must begin with the text ``Taxonomy``, followed by a tab-separated list of one or more sample identifiers. All sample identifiers provided here must be present in ``sample-metadata.tsv``. Each subsequent line should begin with the taxonomic name, followed by a tab-separated list of the relative abundances in each sample. The relative abundances must sum to 1.000 (to three decimal places) for each sample. See [source taxonomy.tsv](./data/example-1/source/taxonomy.tsv) for an example file.
 
 ### Expected taxonomy (``database-name/database-version/expected-taxonomy.tsv``)
 Contains the known composition of the mock community (e.g., taxonomies or KEGG pathways), annotated according to a specific reference database. Compilation of expected composition data is not a trivial task, and requires careful review of database annotations to ensure that accurate annotations are applied to source data. See [Compiling expected taxonomy files](#compiling-expected-taxonomy-files) below for discussion of this topic.
 
-This file must be in ["classic BIOM" (tab-separated text) format](#classic-biom-formatted-tables).
+In these files, the first line must begin with the text ``Taxonomy``, followed by a tab-separated list of one or more sample identifiers. All sample identifiers provided here must be present in ``sample-metadata.tsv``. Each subsequent line should begin with the taxonomic name, followed by a tab-separated list of the relative abundances in each sample. The relative abundances must sum to 1.000 (to three decimal places) for each sample. See [example expected-taxonomy.tsv](./data/example-1/greengenes/13_8/expected-taxonomy.tsv) for an example file.
 
 ### Database identifiers (``database-name/database-version/database-identifiers.tsv``; optional)
 Contributors may provide database identifiers associated with each member of the mock community (useful, for example, for identifying associated sequences in the reference database). Each taxonomic name listed in the ``expected-taxonomy.tsv`` in the same directory must be included, and can have zero or more database identifiers associated with it. The taxonomic name and all database identifiers should be separated by tabs.
 
-## Classic BIOM-formatted tables
-
-Several files are described as being classic [biom-format](http://www.biom-format.org) tables. In these files, the first line must begin with the text ``Taxonomy``, followed by a tab-separated list of one or more sample identifiers. All sample identifiers provided here must be present in ``sample-metadata.tsv``. Each subsequent line should begin with the taxonomic name, followed by a tab-separated list of the relative abundances in each sample. The relative abundances must sum to 1.000 (to three decimal places) for each sample.
 
 ## Raw Data
 
