@@ -1,13 +1,13 @@
 name	value
-citation	hyperlink to original citation or pubmed listing (recommended), or optionally full citation details (not recommended). If not published, NA.
-qiita-id	Study ID if raw data are deposited in qiita. If not, list NA
+citation	NA
+qiita-id	NA
 raw-data-url	http://www.qiime.org
-human-readable-description	Describe this dataset in as much detail as possible. Who generated these data, where, and when? How many strains and species are included in the mock community? How many samples? Were species mixed at equal ratios or uneven ratios? More is always better
-bokulich2013-id	NA. This field is only used for the original 11 datasets in mockrobiota, and lists the dataset ID listed in doi:10.1038/nmeth.2276. All new datasets should list NA for this field.
-bokulich2015-id	NA. This field is only used for the original 11 datasets in mockrobiota, and lists the dataset ID listed in https://dx.doi.org/10.7287/peerj.preprints.934v2. All new datasets should list NA for this field.
-target-gene	For marker-gene studies, what gene was amplified? For example, 16S, ITS, or 18S. For other study types, list NA
-target-subfragment	For marker-gene studies, what gene domain was amplified? For example, V4 or ITS1
-study-type	marker-gene or metagenome (other study types may be accepted. If you already have published mock community data of another type and would like to contribute these data to mockrobiota, create an issue using the link above to propose new study types.
-sequencing-instrument	What sequencing technology/instrument was used? For example, illumina-miseq
-physical-specimen-available	Yes or No. Are physical aliquots of this mock community available to share with other researchers?
-contact-email	email address of person to contact with questions about this dataset.
+human-readable-description	This is an example data set for software testing and documentation purposes.
+bokulich2013-id	NA
+bokulich2015-id	NA
+target-gene	16S
+target-subfragment	V4
+study-type	marker-gene
+sequencing-instrument	illumina-miseq
+physical-specimen-available	No
+physical-specimen-contact	NA
