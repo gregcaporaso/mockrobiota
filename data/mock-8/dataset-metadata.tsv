@@ -12,4 +12,4 @@ target-subfragment	V4
 study-type	marker-gene
 sequencing-instrument	illumina-hiseq
 physical-specimen-available	No
-physical-specimen-contact	peter.turnbaugh@ucsf.edu
+contact-email	peter.turnbaugh@ucsf.edu
