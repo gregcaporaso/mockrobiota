@@ -87,7 +87,7 @@ Contributors may provide database identifiers associated with each member of the
 
 ## Classic BIOM-formatted tables
 
-Several files are described as being classic [biom-format](http://www.biom-format.org) tables. In these files, the first line must begin with the text ``#Taxonomy``, followed by a tab-separated list of one or more sample identifiers. All sample identifiers provided here must be present in ``sample-metadata.tsv``. Each subsequent line should begin with the taxonomic name, followed by a tab-separated list of the relative abundances in each sample. The relative abundances must sum to 1.000 (to three decimal places) for each sample.
+Several files are described as being classic [biom-format](http://www.biom-format.org) tables. In these files, the first line must begin with the text ``Taxonomy``, followed by a tab-separated list of one or more sample identifiers. All sample identifiers provided here must be present in ``sample-metadata.tsv``. Each subsequent line should begin with the taxonomic name, followed by a tab-separated list of the relative abundances in each sample. The relative abundances must sum to 1.000 (to three decimal places) for each sample.
 
 ## Raw Data
 
